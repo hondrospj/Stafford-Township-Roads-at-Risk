@@ -1,0 +1,45 @@
+{
+  "name": "Roads at Risk - Stafford Township DEM",
+  "source": "USGS 3DEP Bare Earth DEM Dynamic ImageServer",
+  "sourceUrl": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "sourceDescription": "USGS 3D Elevation Program (3DEP) Bare Earth DEM Dynamic service, retrieved for the Roads at Risk municipal rollout.",
+  "downloadedAt": "2026-08-10",
+  "processing": "Exported from USGS 3DEP at municipal extent, masked to the Stafford Township boundary, adaptively resampled to 18.7 ft pixels to keep the browser-delivered raster within operational size limits, and compressed as a Cloud Optimized GeoTIFF.",
+  "horizontalCrs": "EPSG:3857",
+  "verticalUnits": "meters",
+  "displayElevationUnits": "feet",
+  "pixelSizeMeters": 5.690201826998297,
+  "pixelSizeFeet": 18.6686411646179,
+  "adaptiveResolution": true,
+  "width": 4692,
+  "height": 3411,
+  "nodata": -999999,
+  "minMeters": 0,
+  "maxMeters": 49.643,
+  "meanMeters": 13.637,
+  "stdDevMeters": 13.618,
+  "minFeet": 0,
+  "maxFeet": 162.870734907485,
+  "webMercatorBounds": [
+    -8281098.564733,
+    4813817.6589751085,
+    -8254400.137760724,
+    4833226.937407
+  ],
+  "leafletBounds": [
+    [
+      39.6403911,
+      -74.3903741
+    ],
+    [
+      39.7744986,
+      -74.1505545
+    ]
+  ],
+  "files": {
+    "demCog": "stafford_township_dem_5ft_cog.tif",
+    "hillshadeCog": "stafford_township_hillshade_cog.tif",
+    "hillshadePng": "stafford_township_hillshade.png",
+    "boundaryGeojson": "stafford_township_boundary.geojson"
+  }
+}
